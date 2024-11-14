@@ -1,0 +1,46 @@
+body {
+    background-color: #000;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: left;
+}
+h1 {
+    color: red
+}
+.second-line {
+    color: cyan;
+}
+.third-line {
+    color: white;
+}
+
+.first-video {
+    display: grid;
+    justify-content: right;
+    align-items: right;
+    height: 100vh;
+    background-color: #000;
+}
+
+/* Estilização do vídeo */
+.crown {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+}
+
+.second-video {
+    display: grid;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+    background-color: #000;
+}
+.rave {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+}
