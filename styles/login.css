@@ -1,13 +1,16 @@
 body {
     display: grid;
     place-items: center;
-    height: 100vh;    
+    /* height: 100vh;
+    */
 }
 .login {
     background-image: url(../images/Rammus_26.jpg);
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    justify-content: center;
+    align-items: center;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     width: 400px;
@@ -50,6 +53,8 @@ input {
 button {
     background: rgba(45, 126, 231);
     height: 40px;
+    width: 120px;
+    border-radius: 30px;
     box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.9);
     color: white;
 }
