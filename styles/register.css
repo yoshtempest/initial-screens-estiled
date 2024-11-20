@@ -1,36 +1,57 @@
 .register {
     display: flex;
-    gap: 50px;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
     font-family: "Varela Round", sans-serif;
     line-height: 1.5em;
+}
+.registerTag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .item {
     background-image: url(../images/Rammus_7.jpg);
     background-size: cover;
-    background-position: right; 
+    background-position: left;
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+    justify-content: left;
     color: #eb904b;
-    width: 300px;
+    width: 430px;
+    height: 500px;
     background-color: var(--color);
     border-radius: 10px;
+    border: 1px solid black;
     padding: 10px 5px;
-    box-shadow: #3c40434d 0px 1px 2px 0px,  #3c40434d 0px 1px 3px 1px;
     position: relative;
     cursor: pointer;
+    filter: brightness(95%);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+.buttonRegister {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+button {
+    background: black;
+    height: 40px;
+    width: 80px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+    color: white;
 }
 .item::after {
-    /* content: "";
     top: 8px;
     left: 0;
     z-index: 2;
     position: absolute;
     border-color: transparent transparent transparent var(--color);
-    transition: filter .5s;
+    transition: filter 5s;
     border-width: 40px 40px 40px 40px;
     height: 80%;
-    */
     box-sizing: border-box;
     border-style: solid;
     filter: drop-shadow(5px 0 4px #00000094);
@@ -41,4 +62,3 @@
 .item::hover {
     left: 50px;
 }
-

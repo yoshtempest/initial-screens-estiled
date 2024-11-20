@@ -6,13 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../styles/global.css">
         <link rel="stylesheet" href="../styles/register.css">
-        <title>LOG IN</title>
     </head>
     <body>
         <div class="register">
-            <h1>Register</h1>
             <form id="registerForm">
                 <div class="item">
+                        <div class="registerTag">
+                            <h1>Register</h1>
+                        </div>
                         <label for="username">
                             <p> Username: </p>
                             <input type="text" id="username" required>
@@ -25,9 +26,12 @@
                             <p> Password: </p> 
                             <input type="password" id="password" required>
                         </label>
+                        <div class="buttonRegister">
+                            <button type="submit" value="Login"> Submit </button>
+                        </div>
+                        <a href="./login.html"> Return to Login </a>
                 </div>
             </form>
-            <a href="./login.html"> LOG IN </a>
         </div>
             <script src="../controller/register.js">
             </script>

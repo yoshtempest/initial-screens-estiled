@@ -1,16 +1,12 @@
 body {
     display: grid;
     place-items: center;
-    /* height: 100vh;
-    */
 }
 .login {
     background-image: url(../images/Rammus_26.jpg);
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    justify-content: center;
-    align-items: center;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     width: 400px;
@@ -48,6 +44,12 @@ input {
     padding: 0px 20px;
     margin-bottom: 20px;
     color: white;
+}
+
+.buttonLogin {
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 button {
