@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/login_register.css">
+    <title>Auth System</title>
+</head>
+<body>
+    <div class="container">
+        <div class="auth-forms">
+            <!-- Login Form -->
+            <form id="loginForm" class="form active">
+                <h1>Login</h1>
+                <p>Doesn't have an account? 
+                    <a href="#" id="goToRegister">Sign up</a>
+                </p>
+                <label for="logiUsername">Username:</label>
+                <input type="text" id="loginUsername" name="username" required>
+
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" name="password" required>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <!-- Register Form -->
+            <form id="registerForm" class="form">
+                <h1>Register</h1>
+                <p>Already have an account? 
+                    <a href="#" id="goToLogin">Login</a>
+                </p>
+                <label for="registerUsername">Username:</label>
+                <input type="text" id="registerUsername" name="username" required>
+
+                <label for="registerEmail">Email:</label>
+                <input type="email" id="registerEmail" name="email" required>
+
+                <label for="registerPassword">Password:</label>
+                <input type="password" id="registerPassword" name="password" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="../controller/login_register.js" defer></script>
+</body>
+</html>
